@@ -9,7 +9,7 @@ public class TestaFigura {
         System.out.println("Nome da figura: " + retangulo.getNomeFigura());
         System.out.println("Area do retangulo: " + retangulo.getArea());
         System.out.println("Perimetro do retangulo: " + retangulo.getPerimetro());
-        System.out.println("-=--=--=--=--=--=--=--=--=--=--=--=--=--=--=-");
+        System.out.println();
         triangulo.setLadoA(5);
         triangulo.setLadoB(6);
         triangulo.setLadoC(7);
@@ -18,7 +18,7 @@ public class TestaFigura {
         System.out.println("Nome da figura: " + triangulo.getNomeFigura());
         System.out.println("Valor do perimetro: " + triangulo.getPerimetro());
         System.out.println("Area: " + triangulo.getArea());
-        System.out.println("-=--=--=--=--=--=--=--=--=--=--=--=--=--=--=-");
+        System.out.println();
         quadrado.setLado(5);
         System.out.println("Nome da figura: " + quadrado.getNomeFigura());
         System.out.println("Valor do perimetro: " + quadrado.getPerimetro());
